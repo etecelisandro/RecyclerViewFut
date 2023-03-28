@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".ApresentaFilmeActivity">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_arrow_back"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        />
+
     <TextView
         android:id="@+id/mTituloFilme"
         android:layout_width="wrap_content"
@@ -16,7 +24,7 @@
         android:layout_marginBottom="10sp"
         android:shadowColor="#000"
         android:shadowRadius="5"
-        android:text="O Apocalipe"
+        android:text="Marta Silva"
         android:textAllCaps="true"
         android:textColor="#F10000"
         android:textSize="30sp"
@@ -25,12 +33,12 @@
         />
 
     <ImageView
-        android:id="@+id/mImagemFilme"
+        android:id="@+id/marta01"
         android:layout_width="250dp"
         android:layout_height="300dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
-        android:src="@drawable/apocalipe" />
+        android:src="@drawable/marta01" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="10sp"
-            android:text="Drama"
+            android:text="Atacante"
             android:textColor="#000"
             android:textSize="20sp" />
     </LinearLayout>
@@ -84,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="5sp"
-            android:text="Descrição"
+            android:text=" Atualmente joga pelo Orlando Pride, dos Estados Unidos"
             android:textColor="#000"
             android:textSize="15sp" />
     </LinearLayout>
@@ -129,12 +137,12 @@
     </LinearLayout>
 
     <Button
-        android:layout_margin="5dp"
         android:id="@+id/btnVoltar"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
         android:text="Voltar" />
 
 
