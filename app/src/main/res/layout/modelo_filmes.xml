@@ -16,15 +16,15 @@
         android:orientation="horizontal">
 
 
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/idCardFilmes"
+<androidx.cardview.widget.CardView
+    android:id="@+id/idCardMarta"
     android:layout_width="190dp"
+    android:layout_margin="5dp"
     android:layout_height="260dp"
     android:orientation="vertical"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
-    app:cardCornerRadius="1dp">
+    app:cardCornerRadius="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,14 +33,14 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/idImgFilmes"
+            android:id="@+id/idImgMarta"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
             android:src="@drawable/marta" />
 
         <TextView
-            android:id="@+id/idTituloFilmes"
+            android:id="@+id/idTituloMarta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -56,35 +56,35 @@
 
 
     <androidx.cardview.widget.CardView
-    android:id="@+id/idCardFilmes"
+    android:id="@+id/idCardTamires"
     android:layout_width="190dp"
+        android:layout_margin="5dp"
     android:layout_height="260dp"
     android:orientation="horizontal"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
-    app:cardCornerRadius="1dp">
+    app:cardCornerRadius="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
-
-        android:orientation="ho">
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/idImgFilmes"
+            android:id="@+id/idImgTamires"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/marta" />
+            android:src="@drawable/tamires" />
 
         <TextView
-            android:id="@+id/idTituloFilmes"
+            android:id="@+id/idTituloTamires"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
-            android:text="Rainha Marta"
+            android:text="Tamires Dias"
             android:textColor="#000"
             android:textSize="15sp"
             android:textStyle="bold" />

@@ -1,17 +1,17 @@
 package br.com.etecia.recyclerviewfilmes;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.Button;
+        import android.widget.ImageView;
+        import android.widget.TextView;
 
-import com.google.android.material.appbar.MaterialToolbar;
+        import com.google.android.material.appbar.MaterialToolbar;
 
-public class ApresentaFilmeActivity extends AppCompatActivity {
+public class ApresentaJogTamires extends AppCompatActivity {
 
     TextView mTitulo, mCategoria, mDescricao;
     ImageView mImagem;
@@ -27,7 +27,7 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         mTitulo = findViewById(R.id.mTituloFilme);
         mCategoria = findViewById(R.id.mCategoria);
         mDescricao = findViewById(R.id.mDescricao);
-        mImagem = findViewById(R.id.mImagemMarta01);
+        mImagem = findViewById(R.id.mImagemtamires);
         btnVoltar = findViewById(R.id.btnVoltar);
 
         idToolbar = findViewById(R.id.idToolBar);
@@ -52,18 +52,18 @@ public class ApresentaFilmeActivity extends AppCompatActivity {
         Intent intent = getIntent();
         //Declarando as variáveis que irão receber o valor
         String titulo, descricao, categoria;
-        int mImagemMarta01;
+        int mImagemTamires01;
 
         titulo = intent.getExtras().getString("Titulo");
         descricao = intent.getExtras().getString("Descricao");
         categoria = intent.getExtras().getString("Categoria");
 
-        mImagemMarta01 = intent.getExtras().getInt("ImagemMarta01");
+        mImagemTamires01 = intent.getExtras().getInt("ImagemTamires01");
 
         mTitulo.setText(titulo);
         mDescricao.setText(descricao);
         mCategoria.setText(categoria);
-        mImagem.setImageResource(mImagemMarta01);
+        mImagem.setImageResource(mImagemTamires01);
 
     }
 }
