@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B8EF79"
+    android:background="#43B8B3"
     android:orientation="vertical"
     tools:context=".ApresentaFilmeActivity">
 
@@ -53,12 +53,10 @@
 
 </androidx.cardview.widget.CardView>
 
-
-
     <androidx.cardview.widget.CardView
     android:id="@+id/idCardTamires"
     android:layout_width="190dp"
-        android:layout_margin="5dp"
+    android:layout_margin="5dp"
     android:layout_height="260dp"
     android:orientation="horizontal"
     android:clickable="true"
@@ -92,4 +90,5 @@
 
 </androidx.cardview.widget.CardView>
 
+</LinearLayout>
 </LinearLayout>

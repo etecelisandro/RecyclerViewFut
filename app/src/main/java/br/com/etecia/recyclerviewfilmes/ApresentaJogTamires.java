@@ -55,7 +55,7 @@ public class ApresentaJogTamires extends AppCompatActivity {
         int mImagemTamires01;
 
         titulo = intent.getExtras().getString("Titulo");
-        descricao = intent.getExtras().getString("Descricao");
+        descricao = intent.getExtras().getString("atua como lateral-esquerda");
         categoria = intent.getExtras().getString("Categoria");
 
         mImagemTamires01 = intent.getExtras().getInt("ImagemTamires01");

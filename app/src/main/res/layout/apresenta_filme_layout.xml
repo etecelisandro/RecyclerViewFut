@@ -22,11 +22,11 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20sp"
         android:layout_marginBottom="10sp"
-        android:shadowColor="#000"
+        android:shadowColor=""
         android:shadowRadius="5"
-        android:text="Marta Silva"
+        android:text="Tamires Dias"
         android:textAllCaps="true"
-        android:textColor="#F10000"
+        android:textColor="#020202"
         android:textSize="30sp"
         android:textStyle="bold"
 
@@ -38,7 +38,7 @@
         android:layout_height="300dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
-        android:src="@drawable/marta01" />
+        android:src="@drawable/tamires01" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="5sp"
-            android:text=" Atualmente joga pelo Orlando Pride, dos Estados Unidos"
+            android:text=" Ela atua como lateral-esquerda do Corinthians e da Seleção Brasileira de Futebol Feminino "
             android:textColor="#000"
             android:textSize="15sp" />
     </LinearLayout>
